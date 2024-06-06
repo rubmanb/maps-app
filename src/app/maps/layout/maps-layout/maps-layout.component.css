@@ -5,3 +5,4 @@ maps-side-menu{
   z-index: 999px;
   width: 180px;
 }
+#map { height: 180px; }

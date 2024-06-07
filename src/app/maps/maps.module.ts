@@ -1,6 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import mapboxgl from 'mapbox-gl';
+
+(mapboxgl as any).accessToken = 'pk.eyJ1IjoicmF5MTM4NiIsImEiOiJjbHgzY285cGYwNGs2MmlzYzdxYnFzMnd0In0.gguyny32AAUmaw7C4cm68A';
+
 import { MapsRoutingModule } from './maps-routing.module';
 import { MarkersPageComponent } from './pages/markers-page/markers-page.component';
 import { PropertiesPageComponent } from './pages/properties-page/properties-page.component';
